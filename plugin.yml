@@ -1,0 +1,35 @@
+name: Kits
+main: Kits\Loader
+version: 0.1
+api:
+    - 1.13.0
+    - 1.13.1
+    - 2.0.0
+author: RedstoneAlmeida
+
+commands:
+    kit:
+        description: Kit Command
+        use: "/kit"
+        permission: kit.command
+    kits:
+        description: Kits Command
+        use: "/kits"
+        permission: kits.command
+
+permissions:
+    kit.command:
+        description: "Kit Command"
+        default: true
+    kits.command:
+        description: "Kits Command"
+        default: true
+    kit.pvp.command:
+        description: "Kit PvP"
+        default: op
+    kit.viper.command:
+        description: "Kit Viper"
+        default: op
+    kit.pyromancer.command:
+        description: "Kit Pyromancer"
+        default: op
